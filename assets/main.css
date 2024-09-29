@@ -1,0 +1,105 @@
+body {
+    width: 50vw;
+    height: auto;
+    border: 1.5px solid black;
+    padding: 0;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 0 2rem 2rem 2rem;
+    width: calc((100% / 2));
+    font-size: 1.25vw;
+}
+
+main {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.image-header {
+    width: 20vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.grafico-section {
+    width: 22vmax;
+    height: auto;
+    padding: .5vw;
+}
+p {
+    margin: 0.5rem 0;
+    font-family: Arial;
+    text-indent: 1vw;
+}
+
+div.titulo {
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+h3 {
+    font-size: 1.35vw;
+}
+
+h5 {
+    font-size: 1vw;
+}
+
+h2,
+h3,
+h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.triangulo {
+    display: inline-block;
+    position: absolute;
+    right: 22.5vw;
+    margin-right: 2.5vw;
+    border-top: 0px solid transparent;
+    border-bottom: 1.75vw solid transparent;
+    border-right: 45vw solid rgb(44, 158, 3);
+    border-bottom-left-radius: 10%;
+}
+
+.triangulo-abaixo {
+    display: inline-block;
+    position: absolute;
+    margin-top: 1.75vw;
+    right: 22.5vw;
+    margin-right: 2.5vw;
+    border-top: 0px solid transparent;
+    border-bottom: 1.75vw solid transparent;
+    border-right: 40vw solid rgb(30, 105, 2);
+    border-bottom-left-radius: 10%;
+    transform: rotate(1.75deg);
+}
+
+.triangulo-footer1 {
+    border-top: 0px solid transparent;
+    border-bottom: 1.75vw solid transparent;
+    border-left: 47vw solid rgb(44, 158, 3);
+}
+
+.triangulo-footer2 {
+    border-top: 0px solid transparent;
+    border-bottom: 1.75vw solid transparent;
+    border-left: 40vw solid rgb(30, 105, 2);
+}
